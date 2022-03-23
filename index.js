@@ -6,7 +6,7 @@ const io = require('socket.io')(server);
 const _ = require('underscore');
 const fs =require('fs');
 
-const port = process.env.PORT || parseInt(process.argv.pop()) || 3002;
+const port = process.env.PORT || parseInt(process.argv.pop()) || 3001;
 
 server.listen(port, function () {
   console.log("Server listening at port %d", port);
