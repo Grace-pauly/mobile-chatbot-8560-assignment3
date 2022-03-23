@@ -7,7 +7,7 @@ const OrderState = Object.freeze({
     EXTRAS: Symbol("extras")
 });
 
-const TAX = 0.10;
+const TAX = 0.15;
 
 module.exports = class LockDownEssentials extends Order {
     constructor(sNumber, sUrl) {
