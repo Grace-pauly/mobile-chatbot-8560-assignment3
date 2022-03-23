@@ -125,7 +125,7 @@ module.exports = class LockDownEssentials extends Order {
                 this.nFinalTotal += (this.nTotal*TAX);
                
                 aReturn.push(`Your total comes to ${this.nTotal} and including tax is ${this.nFinalTotal}`);
-                aReturn.push(`We will text you from 519-111-1111 when your order is ready or if we have questions.`)
+                aReturn.push(`We will text you from 519-123-1234 when your order is ready or if we have questions.`)
                 this.isDone(true);
                 break;
         }
